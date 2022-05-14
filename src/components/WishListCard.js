@@ -24,7 +24,7 @@ const WishListCard = ({el}) => {
 
     return (
         <>
-            <ToastContainer/>
+
             <div className="col-2 ">
                 <div className='wishlist__info'>
                     <img className='wishlist__img' src={el.image} alt=""/>

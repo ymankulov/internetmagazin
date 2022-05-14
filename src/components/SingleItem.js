@@ -38,7 +38,6 @@ const SingleItem = () => {
 
     return (
         <>
-            <ToastContainer/>
             <section id='singleITem'>
                 <div className="container">
                     <div className="singleITem">

@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAdd, faMinus} from "@fortawesome/free-solid-svg-icons";
 import {useDispatch, useSelector,} from "react-redux";
 import {addBasket, decreaseQuantity, deleteFromBasket} from "../redux/actions/actions";
-import { SRLWrapper } from "simple-react-lightbox";
+// import { SRLWrapper } from "simple-react-lightbox";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -25,13 +25,13 @@ const BasketCard = ({el, idx}) => {
 
     return (
         <>
-            <ToastContainer/>
+
         <tr>
             <th>{idx + 1}</th>
             <th>
-                <SRLWrapper>
+
                     <img className='basket--image' src={el.image} alt=""/>
-                </SRLWrapper>
+
             </th>
             <th>{el.title}</th>
             <th className='basket--list--quantity'>

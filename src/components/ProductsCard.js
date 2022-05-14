@@ -37,7 +37,7 @@ const ProductsCard = ({el}) => {
 
     return (
         <>
-            <ToastContainer/>
+
             <div className="col-4">
                 <div className='products--character'>
                     <NavLink to={`/products/products-info/${el.id}`}>
